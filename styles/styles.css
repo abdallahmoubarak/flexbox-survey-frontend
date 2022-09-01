@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #bbb;
+  padding: 2rem 0rem;
+}
+
+.body {
+  max-width: 40rem;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.header {
+  background: white;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: #b30000;
+}
+.formbody {
+  background: #eee;
+  color: #b30000;
+  padding: 2.6rem;
+}
+.input {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 0.2rem;
+}
+.sfont {
+  color: gray;
+}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  padding: 1rem 0rem;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  padding: 1rem 0rem;
+}
+
+input[type="radio"] {
+  background-color: #fff;
+  color: lightgray;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid lightgray;
+}
+
+textarea {
+  width: 100%;
+  height: 5rem;
+  padding: 0.2rem 0.6rem;
+  outline: none;
+  font-size: 1rem;
+}
+.center {
+  text-align: center;
+}
+input[type="submit"] {
+  font-size: 1.6rem;
+  padding: 0.2rem 2rem;
+  background: #555;
+  color: white;
+  border-radius: 0.4rem;
+}
+
+.paddingbtn {
+  padding-bottom: 0.3rem;
+}
+
+.paddingtop {
+  padding-top: 0.3rem;
+}
+
+.flexClmn {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 14rem;
+}
+
+.qus {
+  flex: 1 1 100%;
+}
+
+.inline {
+  flex: 1 1 14rem;
+}
